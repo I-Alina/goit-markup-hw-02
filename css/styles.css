@@ -1,0 +1,60 @@
+:root{
+    --header-color: #212121;
+    --main-title-color: #212121;
+    --main-btn-color: #212121;--second-header-color: #2196F3;
+   
+
+}
+body {
+    color: #757575;
+    background-color: #E5E5E5;
+}
+ul {
+        list-style: none;
+    };
+.link {
+    text-decoration: none;
+}
+h1,h2,h3 {
+    color: var(--header-color);
+}
+/*-------------HEADER-------------*/
+header {
+    background-color: #FFFFFF;;
+}
+.header-logo {
+        color: var(--second-header-color);
+}
+span {
+    color: var(--header-color);
+}
+.header-list {
+    color: var(--header-color);
+}
+/*-------------SITE-NAV-------------*/
+.header-nav {
+    color: var(--header-color);
+}
+.site-link:hover {
+    color: var(--second-header-color);
+}
+.site-link:focus {
+    color: var(--second-header-color);
+}
+
+/*------------HEADER-CONTACTS------------*/
+
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--second-header-color);
+}
+.header-tel {
+    color: #757575;;
+}
+/*-------------logo-------------*/
+
+
+/*-------------logo-------------*/
+
+
