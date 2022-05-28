@@ -19,7 +19,7 @@ ul {
     text-decoration: none;
 }
 h1 {
-    color: #FFFFFF;;
+    color: #FFFFFF;
 }
 h2,h3 {
     color: var(--main-title-color);
@@ -29,10 +29,11 @@ header {
     background-color: #FFFFFF;
 }
 /*-------------HEADER-LOGO-------------*/
-.header-logo {
+.header-logo,
+.footer-logo {
         color: var(--second-header-color);
 }
-span {
+.header span {
     color: var(--main-title-color);
 }
 /*-------------HEADER-NAV-------------*/
@@ -60,7 +61,51 @@ span {
 .title {
     background-color: #2F303A;
 }
+.title-btn {
+    color: #FFFFFF;
+}
+.title-btn:hover,
+.title-btn:focus {
+    color: var(--second-header-color);
+}
+.title-btn {
+    background-color: var(--second-header-color);
+}
 
-/*-------------logo-------------*/
+/*-------------PORTFOLIO-MAIN-------------*/
 
 
+/*-------------MAIN-IMG-------------*/
+
+
+/*-------------MAIN-ASIDE-------------*/
+.aside-subtitle {
+    color: var(--main-title-color);
+}
+
+/*-------------FOOTER-------------*/
+.footer span {
+    color: #FFFFFF;
+}
+.footer {
+    background: #2F303A;
+}
+.footer-address {
+    color: #FFFFFF;
+}
+.footer-mail,
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+/*------------PORTFOLIO-MAIN-------------*/
+.portfolio-btn {
+  color: var(--main-title-color);background-color: #F5F4FA;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: #FFFFFF;
+    background-color: var(--second-header-color);
+}
+/*-------------PORTFOLIO-------------*/
+
+/*-------------PORTFOLIO-------------*/
