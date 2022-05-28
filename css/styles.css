@@ -1,13 +1,16 @@
 :root{
-    --header-color: #212121;
+    --header-color: #757575;
     --main-title-color: #212121;
-    --main-btn-color: #212121;--second-header-color: #2196F3;
+    --second-header-color: #2196F3;
    
 
 }
 body {
-    color: #757575;
+    color: var(--header-color);
     background-color: #E5E5E5;
+}
+span {
+    color: var(--main-title-color);
 }
 ul {
         list-style: none;
@@ -15,45 +18,48 @@ ul {
 .link {
     text-decoration: none;
 }
-h1,h2,h3 {
-    color: var(--header-color);
+h1 {
+    color: #FFFFFF;;
+}
+h2,h3 {
+    color: var(--main-title-color);
 }
 /*-------------HEADER-------------*/
 header {
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
 }
+/*-------------HEADER-LOGO-------------*/
 .header-logo {
         color: var(--second-header-color);
 }
 span {
-    color: var(--header-color);
+    color: var(--main-title-color);
 }
-.header-list {
-    color: var(--header-color);
+/*-------------HEADER-NAV-------------*/
+.header-nav a {
+    color: var(--main-title-color);
 }
-/*-------------SITE-NAV-------------*/
-.header-nav {
-    color: var(--header-color);
-}
-.site-link:hover {
+.header-nav a:hover,
+.header-nav a:focus {
     color: var(--second-header-color);
 }
-.site-link:focus {
-    color: var(--second-header-color);
-}
+
 
 /*------------HEADER-CONTACTS------------*/
-
-
+.header-mail {
+    color: var(--main-title-color);
+}
 .header-mail:hover,
 .header-mail:focus {
     color: var(--second-header-color);
 }
 .header-tel {
-    color: #757575;;
+    color: var(--header-color);
 }
-/*-------------logo-------------*/
-
+/*-------------MAIN-TITLE-------------*/
+.title {
+    background-color: #2F303A;
+}
 
 /*-------------logo-------------*/
 
