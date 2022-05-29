@@ -7,8 +7,14 @@
 
 }
 body {
-    color: var(--header-color);
-    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    h2,
+    h3 {
+    font-weight: 700;
+    color: var(--header-color);background-color: #E5E5E5;
+    }
 }
 span {
     color: var(--main-title-color);
@@ -33,6 +39,7 @@ header {
 .header-logo,
 .footer-logo {
         color: var(--second-header-color);
+        text-decoration: none;
 }
 .header span {
     color: var(--main-title-color);
@@ -40,6 +47,7 @@ header {
 /*-------------HEADER-NAV-------------*/
 .header-nav a {
     color: var(--main-title-color);
+    text-decoration: none;
 }
 .header-nav a:hover,
 .header-nav a:focus {
@@ -53,6 +61,7 @@ header {
 /*------------HEADER-CONTACTS------------*/
 .header-mail {
     color: var(--main-title-color);
+    text-decoration: none;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -60,6 +69,7 @@ header {
 }
 .header-tel {
     color: var(--header-color);
+    text-decoration: none;
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -99,11 +109,13 @@ header {
     background: #2F303A;
 }
 .footer-address {
+    font-style: inherit;
     color: var(--local-color);
 }
 .footer-mail,
 .footer-tel {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .footer-mail:hover,
 .footer-mail:focus {
@@ -129,11 +141,11 @@ header {
     background-color: var(--local-color);
 }
 .subtitle-link {
-    color: var(--main-title-color);
+    color: var(--main-title-color);text-decoration: none;
 }
 .content-text {
 
 }
 /*--------------PORTFOLIO---------------*/
 
-/*  */
+/* 
