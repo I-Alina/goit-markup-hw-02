@@ -45,6 +45,9 @@ header {
 .header-nav a:focus {
     color: var(--second-header-color);
 }
+.nav-link.current {
+    color: var(--second-header-color);
+}
 
 
 /*------------HEADER-CONTACTS------------*/
@@ -57,6 +60,10 @@ header {
 }
 .header-tel {
     color: var(--header-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--second-header-color);
 }
 /*-------------MAIN-TITLE-------------*/
 .title {
@@ -102,7 +109,10 @@ header {
 .footer-mail:focus {
     color: var(--second-header-color);
 }
-
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--second-header-color);
+}
 
 /*------------PORTFOLIO-MAIN-------------*/
 /*------------PORTFOLIO-FILTER------------*/
@@ -122,6 +132,8 @@ header {
     color: var(--main-title-color);
 }
 .content-text {
-    
+
 }
 /*--------------PORTFOLIO---------------*/
+
+/*  */
